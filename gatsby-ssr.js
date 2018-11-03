@@ -4,4 +4,5 @@
  * See: https://www.gatsbyjs.org/docs/ssr-apis/
  */
 
-// You can delete this file if you're not using it
+import stateWrapper from "./src/state/gatsby-state-wrapper"
+export const wrapRootElement = stateWrapper
