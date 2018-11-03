@@ -1,0 +1,17 @@
+#EGA-createColab {
+  position: absolute;
+  right: 30%;
+  top: 200px;
+}
+
+#EGA-splashBackground {
+  background: rgb(37, 37, 37);
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.EGA-buttonColor {
+  color: white;
+  border: 1px solid white;
+}
