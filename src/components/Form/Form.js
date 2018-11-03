@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Form = () => (
-  <form action="https://formspree.io/mbkagyqx" method="POST">
+  <form action="https://formspree.io/xgzlalkm" method="POST">
     <label>
       Your email:
       <input type="text" name="_replyto" />
