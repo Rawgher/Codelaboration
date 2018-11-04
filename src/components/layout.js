@@ -27,8 +27,23 @@ const Layout = ({ children }) => (
           ]}
         >
           <html lang="en" />
+          <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+          />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+          />
+          <script
+            src="https://unpkg.com/@material-ui/core/umd/material-ui.production.min.js"
+            crossorigin="anonymous"
+          />
+          <style>{'body { background-color: rgb(37, 37, 37) }'}</style>
         </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
         <div
           style={{
             margin: '0 auto',
