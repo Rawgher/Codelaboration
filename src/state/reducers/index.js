@@ -1,5 +1,5 @@
 import { LOAD_PROFILE_SUCCESS } from '../../actions/profile'
-import { LOAD_COLLAB_SUCCESS } from '../../actions/collabs'
+// import { LOAD_COLLAB_SUCCESS } from '../../actions/collabs'
 
 export const initialState = {
   site: {},
@@ -24,14 +24,14 @@ const reducer = (state = initialState, action) => {
           ...action.profile,
         },
       }
-    case LOAD_COLLAB_SUCCESS:
-      return {
-        ...state,
-        collabs: {
-          ...state.collabs,
-          ...action.collabs,
-        },
-      }
+    // case LOAD_COLLAB_SUCCESS:
+    //   return {
+    //     ...state,
+    //     collabs: {
+    //       ...state.collabs,
+    //       ...action.collabs,
+    //     },
+    //   }
     default:
       return state
   }
