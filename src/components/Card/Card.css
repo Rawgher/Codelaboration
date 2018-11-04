@@ -1,0 +1,16 @@
+#EGA-imageIcon {
+  max-width: 70px;
+}
+#EGA-imageDiv {
+  width: 100%;
+  text-align: center;
+}
+
+.EGA-starFavIcon {
+  color: orange;
+}
+
+#EGA-singleCardWrapper {
+  min-width: 300px;
+  margin: 0 20px 0 20px;
+}
