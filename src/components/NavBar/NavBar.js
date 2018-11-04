@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './NavBar.css'
+import { Link } from 'gatsby'
 
 class NavBar extends Component {
   constructor(props) {
@@ -13,15 +14,15 @@ class NavBar extends Component {
         <div className="row">
           <div className="col-md-12">
             <nav className="nav flex-column">
-              <a className="nav-link active EGA-a" href="#">
+              <Link to="/" className="nav-link active EGA-a">
                 Home
-              </a>
-              <a className="nav-link EGA-a" href="#">
-                Contact us
-              </a>
-              <a className="nav-link EGA-a" href="#">
+              </Link>
+              <Link to="/contact-us" className="nav-link active EGA-a">
+                Contact Us
+              </Link>
+              <Link to="/user" className="nav-link active EGA-a">
                 Profile
-              </a>
+              </Link>
             </nav>
           </div>
         </div>
