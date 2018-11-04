@@ -1,21 +1,17 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import SplashComponent from '../components/splash.js/splash'
 import Layout from '../components/layout'
-import Image from '../components/image'
 
-const IndexPage = () => (
+const SplashPage = () => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
+    <div className="container">
+      <div className="row">
+        <div className="col-md-12" id="EGA-splashBackground">
+          <SplashComponent />
+        </div>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-    <Link to="/form">Go to form</Link>
-    <Link to="/contact-us">Contact Us</Link>
-    <Link to="/user">User page</Link>
   </Layout>
 )
 
-export default IndexPage
+export default SplashPage
