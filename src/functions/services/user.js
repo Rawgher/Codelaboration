@@ -1,8 +1,16 @@
 import faker from 'faker'
 
+/*
+A user looks like this
+{
+  id: 1232,
+  name: John Doe,
+  email: john.doe@johdoe.com
+}
+*/
 class UserService {
   constructor () {
-    this.users = this.getRandomUsers(50)
+    this.users = this.getRandomUsers(20)
   }
   addUser (data) {
     this.users.push(data)

@@ -16,7 +16,7 @@ exports.handler = function(event, context, callback) {
   console.log('event', event, 'context', context)
   const { httpMethod, queryStringParameters, path, headers } = event
   let statusCode = 200, body
-  switch(httpMethod) {
+  switch (httpMethod) {
     case 'GET':
       if (queryStringParameters && queryStringParameters.id){
         body = UserService.getUser(
@@ -31,12 +31,18 @@ exports.handler = function(event, context, callback) {
       if (body && body.name && body.email) {
         UserService.addUser(body)
         body = 'success'
+      } else {
+        statusCode = 400
+        body = `Invalid parameters`
       }
       break
     case 'DELETE':
       if (queryStringParameters && queryStringParameters.id) {
         UserService.deleteUser(queryStringParameters.id)
         body = 'success'
+      } else {
+        statusCode = 400
+        body = `Invalid parameters`
       }
       break
     default:
