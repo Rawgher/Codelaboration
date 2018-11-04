@@ -35,6 +35,7 @@ class Form extends React.Component {
       severless: '',
       mern: '',
       mean: '',
+      imageURL: '',
     }
   }
 
@@ -76,6 +77,7 @@ class Form extends React.Component {
       mean,
       timeline,
       skillLevel,
+      imageURL,
     } = this.state
 
     // const Form = () => (
@@ -366,6 +368,17 @@ class Form extends React.Component {
                         id="skillLevel"
                         name="skillLevel"
                         value={skillLevel}
+                        onChange={this.handleChange}
+                      />
+                    </div>
+                    <div className="form-group">
+                      <label for="imageURL">Image URL:</label>
+                      <input
+                        type="description"
+                        className="form-control"
+                        id="imageURL"
+                        name="imageURL"
+                        value={imageURL}
                         onChange={this.handleChange}
                       />
                     </div>
