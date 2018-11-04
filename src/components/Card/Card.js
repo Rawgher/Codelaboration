@@ -70,20 +70,16 @@ class appCard extends React.Component {
               // color="textSecondary"
               gutterBottom
             >
-              Find Any Scooter!
+              {this.props.collabName}
             </Typography>
             <div id="EGA-imageDiv">
-              <img
-                id="EGA-imageIcon"
-                src="https://www.razor.com/wp-content/uploads/2018/01/E200_WH_RD_Product.png"
-              />
+              <img id="EGA-imageIcon" src={this.props.image} />
             </div>
             <Typography className={classes.pos} color="textSecondary">
-              This will pull data from all active electric scooter distributors
-              and consolidate access to one single application
+              {this.props.appDesc}
             </Typography>
             <Typography component="p">
-              Coders Needed: 3{/* insert number here */}
+              Coders Needed: {this.props.coders}
             </Typography>
             <Typography component="p">
               Difficulty Rating:{' '}
@@ -114,16 +110,16 @@ class appCard extends React.Component {
         >
           <div style={getModalStyle()} className={classes.paper}>
             <Typography variant="h6" id="modal-title">
-              App Title
+              {this.props.collabName}
             </Typography>
             <Typography variant="subtitle1" id="simple-modal-description">
-              More detailed description here
+              {this.props.appDesc}
             </Typography>
             <Typography variant="subtitle1" id="simple-modal-description">
-              How hard the app is going to be and necessary technologies
+              Technologies used: {this.props.tech}
             </Typography>
             <Typography variant="subtitle1" id="simple-modal-description">
-              Other stuff
+              Help needed by: {this.props.timeline}
             </Typography>
             {/* <SimpleModalWrapped /> */}
           </div>
