@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Header from './header'
+// import Header from './header'
 import './layout.css'
 
 const Layout = ({ children }) => (
@@ -37,17 +37,13 @@ const Layout = ({ children }) => (
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
           />
-          <script
-            src="https://unpkg.com/@material-ui/core/umd/material-ui.production.min.js"
-            crossorigin="anonymous"
-          />
           <style>{'body { background-color: rgb(37, 37, 37) }'}</style>
         </Helmet>
         {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
         <div
           style={{
             margin: '0 auto',
-            maxWidth: 960,
+            // maxWidth: 960,
             padding: '0px 1.0875rem 1.45rem',
             paddingTop: 0,
           }}

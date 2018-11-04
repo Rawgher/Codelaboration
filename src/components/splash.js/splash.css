@@ -1,7 +1,12 @@
-#EGA-createColab {
+#EGA-createCollabButton {
   position: absolute;
-  right: 30%;
+  right: 20%;
   top: 200px;
+}
+#EGA-activeCollabsButton {
+  position: absolute;
+  left: 10%;
+  top: 350px;
 }
 
 #EGA-splashBackground {
@@ -12,6 +17,31 @@
 }
 
 .EGA-buttonColor {
-  color: white;
-  border: 1px solid white;
+  color: white !important;
+  border: 1px solid white !important;
+}
+
+.topLine {
+  position: absolute;
+  left: 0;
+  top: 280px;
+  width: 2px;
+  height: 2px;
+  background: white;
+  transition: width 1s ease;
+}
+.topLineDeployed {
+  width: 830px;
+}
+.bottomLine {
+  position: absolute;
+  left: 0;
+  top: 300px;
+  width: 2px;
+  height: 2px;
+  background: white;
+  transition: width 1s ease;
+}
+.bottomLineDeployed {
+  width: 200px;
 }
