@@ -37,7 +37,9 @@ const Layout = ({ children }) => (
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
           />
-          <style>{'body { background-color: rgb(37, 37, 37) }'}</style>
+          <style>
+            {'body { background-color: rgb(37, 37, 37) }; color: #white'}
+          </style>
         </Helmet>
         {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
         <div
@@ -46,6 +48,7 @@ const Layout = ({ children }) => (
             // maxWidth: 960,
             padding: '0px 1.0875rem 1.45rem',
             paddingTop: 0,
+            color: 'white',
           }}
         >
           {children}
