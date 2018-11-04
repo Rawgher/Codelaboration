@@ -82,13 +82,8 @@ class appCard extends React.Component {
               Coders Needed: {this.props.coders}
             </Typography>
             <Typography component="p">
-              Difficulty Rating:{' '}
-              <i className="fa fa-star EGA-starFavIcon" aria-hidden="true" />{' '}
-              <i className="fa fa-star EGA-starFavIcon" aria-hidden="true" />{' '}
-              <i className="fa fa-star EGA-starFavIcon" aria-hidden="true" />
-              <i className="fa fa-star" aria-hidden="true" />
-              <i className="fa fa-star" aria-hidden="true" />
-              {/* insert number here */}
+              Difficulty Rating: {this.props.skillLevel}
+              /5
             </Typography>
           </CardContent>
           <CardActions>
@@ -112,16 +107,18 @@ class appCard extends React.Component {
             <Typography variant="h6" id="modal-title">
               {this.props.collabName}
             </Typography>
+            <br />
             <Typography variant="subtitle1" id="simple-modal-description">
-              {this.props.appDesc}
+              {this.props.longAppDesc}
             </Typography>
+            <br />
             <Typography variant="subtitle1" id="simple-modal-description">
               Technologies used: {this.props.tech}
             </Typography>
+            <br />
             <Typography variant="subtitle1" id="simple-modal-description">
               Help needed by: {this.props.timeline}
             </Typography>
-            {/* <SimpleModalWrapped /> */}
           </div>
         </Modal>
       </div>

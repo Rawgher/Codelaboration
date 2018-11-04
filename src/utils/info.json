@@ -1,122 +1,134 @@
 [
   {
     "id": 1,
-    "collabName": "Advanced Suit",
+    "collabName": "Eaque quod in magnam",
     "image": "http://pngimg.com/uploads/vase/vase_PNG184.png",
-    "appDesc": "lorem 1",
+    "appDesc": "Iusto voluptatum qui deleniti maiores commodi.",
+    "longAppDesc": "Iusto voluptatum qui deleniti maiores commodi. Mollitia natus qui optio laboriosam voluptatem. Reiciendis labore quia quos. Voluptatem aliquam rerum sapiente ea praesentium fugit. Et nam sunt quaerat minima quis est. Voluptas ut repudiandae ut harum atque quia.",
     "coders": 2,
-    "tech": "react, redux, node",
-    "timeline": "next week",
-    "skillLevel": ""
+    "tech": "React, Redux, Node",
+    "timeline": "2019-05-15",
+    "skillLevel": 1
   },
   {
     "id": 2,
-    "collabName": "2099 Suit",
+    "collabName": "Fugiat quas modi",
     "image": "http://pngimg.com/uploads/vase/vase_PNG182.png",
-    "appDesc": "lorem 2",
+    "appDesc": "Saepe sit cupiditate quaerat.",
+    "longAppDesc": "Quod autem nemo fugit molestiae nihil asperiores nobis laudantium aperiam. Perferendis est totam eligendi qui quia aut ipsa. Repellat distinctio consequuntur et. Saepe sit cupiditate quaerat.",
     "coders": 3,
-    "tech": "python, javascript, c++",
-    "timeline": "1 day",
-    "skillLevel": ""
+    "tech": "Python, Javascript, C++",
+    "timeline": "2019-03-31",
+    "skillLevel": 3
   },
   {
     "id": 3,
-    "collabName": "Classic Suit",
+    "collabName": "Id quidem minima",
     "image": "http://pngimg.com/uploads/vase/vase_PNG178.png",
-    "appDesc": "lorem 3",
+    "appDesc": "Voluptatibus est quis facere.",
+    "longAppDesc": "Voluptatibus est quis facere. Magnam earum modi. Sint ea rerum et. Provident suscipit autem sed quo sed.",
     "coders": 4,
-    "tech": "'react, javascript, serverless",
-    "timeline": "3 weeks",
-    "skillLevel": ""
+    "tech": "React, Javascript, Serverless",
+    "timeline": "2019-08-27",
+    "skillLevel": 4
   },
   {
     "id": 4,
-    "collabName": "Dark Suit",
+    "collabName": "Quae perspiciatis dolores minus aut",
     "image": "http://pngimg.com/uploads/vase/vase_PNG174.png",
-    "appDesc": "lorem 2",
+    "appDesc": "Deleniti magnam recusandae.",
+    "longAppDesc": "Deleniti magnam recusandae. Velit assumenda tempora exercitationem non quos velit dolorem. Optio voluptatem quia quod fugit autem reiciendis. Nesciunt aut vitae sunt. Quos quasi eum minus rerum aperiam temporibus sed quia aut. Nam occaecati placeat numquam molestias non eius quaerat iure dolorem.",
     "coders": 2,
-    "tech": "node, vue",
-    "timeline": "2 days",
-    "skillLevel": ""
+    "tech": "Node, Vue",
+    "timeline": "2019-10-18",
+    "skillLevel": 2
   },
   {
     "id": 5,
-    "collabName": "Homemade Suit",
+    "collabName": "Ad nostrum in ratione sed et nobis neque",
     "image": "http://pngimg.com/uploads/vase/vase_PNG169.png",
-    "appDesc": "lorem 3",
+    "appDesc": "Omnis quod natus dolores molestiae veniam magni.",
+    "longAppDesc": "Quis velit et beatae et qui molestiae eveniet et. Dicta sapiente mollitia quibusdam sapiente asperiores. Et temporibus aut et aut ut explicabo iusto. Omnis quod natus dolores molestiae veniam magni.",
     "coders": 1,
-    "tech": "python",
-    "timeline": "4 months",
-    "skillLevel": ""
+    "tech": "Python",
+    "timeline": "2019-03-20",
+    "skillLevel": 1
   },
   {
     "id": 6,
-    "collabName": "Insulated Suit",
+    "collabName": "Ut sunt officiis est ut et",
     "image": "http://pngimg.com/uploads/vase/vase_PNG163.png",
-    "appDesc": "lorem 3",
+    "appDesc": "Voluptate impedit ut assumenda recusandae.",
+    "longAppDesc": "Voluptate impedit ut assumenda recusandae excepturi vel perferendis. Et eaque saepe facere quasi. Est iusto beatae magnam quas dignissimos qui perspiciatis omnis.",
     "coders": 2,
-    "tech": "react, redux",
-    "timeline": "yesterday",
-    "skillLevel": ""
+    "tech": "React, Redux",
+    "timeline": "2019-08-31",
+    "skillLevel": 3
   },
   {
     "id": 7,
-    "collabName": "MK II Suit",
+    "collabName": "Ab perferendis consequatur eum vel est sed officiis",
     "image": "http://pngimg.com/uploads/vase/vase_PNG158.png",
-    "appDesc": "lorem 132",
+    "appDesc": "Ex quam commodi nulla explicabo.",
+    "longAppDesc": "Magni rerum repudiandae ipsum sapiente minima reprehenderit. Qui eos occaecati. Perferendis ea quis. Ex quam commodi nulla explicabo.",
     "coders": 13,
-    "tech": "node",
-    "timeline": "its been 1 week",
-    "skillLevel": ""
+    "tech": "Node",
+    "timeline": "2019-05-25",
+    "skillLevel": 4
   },
   {
     "id": 8,
-    "collabName": "Noir Suit",
+    "collabName": "Velit dolor maiores sapiente maiores et nihil at",
     "image": "http://pngimg.com/uploads/vase/vase_PNG150.png",
-    "appDesc": "lorem ",
+    "appDesc": "Ducimus aliquid odio sit.",
+    "longAppDesc": "Et sit iusto quo. Ducimus aliquid odio sit. Eum corporis at sed consequuntur. Corporis quo sit facilis ut unde explicabo. Expedita dolorem distinctio temporibus nam odit ducimus.",
     "coders": 12,
-    "tech": "react",
-    "timeline": "now",
-    "skillLevel": ""
+    "tech": "React",
+    "timeline": "2018-11-10",
+    "skillLevel": 3
   },
   {
     "id": 9,
-    "collabName": "Punk Suit",
+    "collabName": "Qui natus voluptatem",
     "image": "http://pngimg.com/uploads/vase/vase_PNG143.png",
-    "appDesc": "lorem 1323",
+    "appDesc": "Et iure perferendis dolore nemo ducimus tempore quas ut.",
+    "longAppDesc": "Et iure perferendis dolore nemo ducimus tempore quas ut. Eos iste adipisci quia aspernatur est aspernatur asperiores sed. Vitae error autem adipisci et aut corrupti dolorem facere. Ipsa quia facere molestias perspiciatis neque minus accusamus.",
     "coders": 123211,
-    "tech": "vue, mongoDB",
-    "timeline": "asap",
-    "skillLevel": ""
+    "tech": "Vue, MongoDB",
+    "timeline": "2019-07-30",
+    "skillLevel": 1
   },
   {
     "id": 10,
-    "collabName": "MK IV Suit",
+    "collabName": "Iste odio sit accusantium quasi qui repellendus ut",
     "image": "http://pngimg.com/uploads/vase/vase_PNG137.png",
-    "appDesc": "lorem 111",
+    "appDesc": "Voluptatem et iusto perferendis.",
+    "longAppDesc": "Suscipit veritatis quam doloribus soluta non modi. Consectetur sunt debitis blanditiis ea ipsa magni voluptas facilis quo. Voluptatem fugit voluptate est similique nesciunt incidunt. Voluptatem et iusto perferendis.",
     "coders": 1,
     "tech": "elm",
-    "timeline": "next tuesday",
-    "skillLevel": ""
+    "timeline": "2019-01-26",
+    "skillLevel": 2
   },
   {
     "id": 11,
-    "collabName": "Scarlet Suit",
+    "collabName": "Aut nesciunt sit officiis dolorum et earum porro reprehenderit",
     "image": "http://pngimg.com/uploads/vase/vase_PNG131.png",
-    "appDesc": "lorem 213213",
+    "appDesc": "Et saepe et.",
+    "longAppDesc": "Dolores voluptatem assumenda quisquam quisquam exercitationem. Aut assumenda praesentium illo. Incidunt dolores inventore illum dolores a amet est sit sit. Ducimus ab ipsum perspiciatis. Dolores nemo quo architecto libero occaecati id explicabo nobis. Et saepe et.",
     "coders": 3,
     "tech": "JAMstack",
-    "timeline": "Friday",
-    "skillLevel": ""
+    "timeline": "2019-01-29",
+    "skillLevel": 3
   },
   {
     "id": 12,
-    "collabName": "Stark Suit",
+    "collabName": "Qui velit inventore",
     "image": "http://pngimg.com/uploads/vase/vase_PNG127.png",
-    "appDesc": "lorem 124214124",
-    "coders": 32,
+    "appDesc": "Voluptatum id doloribus atque qui doloremque.",
+    "longAppDesc": "Et sequi ut rem dolores ut eum. Alias reprehenderit nam impedit quibusdam iure incidunt exercitationem eos blanditiis. Iste consequuntur nobis illo qui. Est nostrum porro libero. Voluptatum id doloribus atque qui doloremque.",
+    "coders": 2,
     "tech": "MERN",
-    "timeline": "tomorrow",
-    "skillLevel": ""
+    "timeline": "2019-05-18",
+    "skillLevel": 1
   }
 ]
