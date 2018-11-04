@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const LOAD_COLLAB_SUCCESS = 'LOAD_COLLAB_SUCCESS'
-const COLLAB_URL = '/.netlify/functions/collab'
+const COLLAB_URL = '/.netlify/functions/collabs'
 
 export const loadCollabSuccess = collabs => ({
   type: LOAD_COLLAB_SUCCESS,

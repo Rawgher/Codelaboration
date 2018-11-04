@@ -20,7 +20,19 @@ class Form extends React.Component {
       css: '',
       cPlusPlus: '',
       html: '',
+      react: '',
       javascript: '',
+      redux: '',
+      node: '',
+      python: '',
+      git: '',
+      doc: '',
+      angular: '',
+      vue: '',
+      jamstack: '',
+      severless: '',
+      mern: '',
+      mean: '',
     }
   }
 
@@ -48,6 +60,18 @@ class Form extends React.Component {
       cPlusPlus,
       html,
       javascript,
+      react,
+      redux,
+      node,
+      python,
+      git,
+      doc,
+      angular,
+      vue,
+      jamstack,
+      serverless,
+      mern,
+      mean,
       timeline,
       skillLevel,
     } = this.state
@@ -154,6 +178,162 @@ class Form extends React.Component {
                   />
                   <label className="form-check-label" for="javascript">
                     Javascript
+                  </label>
+                </div>
+                <div className="form-check form-check-inline">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    name="react"
+                    value={react}
+                    onChange={this.handleChange}
+                    id="react"
+                  />
+                  <label className="form-check-label" for="react">
+                    React
+                  </label>
+                </div>
+                <div className="form-check form-check-inline">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    name="redux"
+                    value={redux}
+                    onChange={this.handleChange}
+                    id="redux"
+                  />
+                  <label className="form-check-label" for="redux">
+                    Redux
+                  </label>
+                </div>
+                <div className="form-check form-check-inline">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    name="node"
+                    value={node}
+                    onChange={this.handleChange}
+                    id="node"
+                  />
+                  <label className="form-check-label" for="node">
+                    Node
+                  </label>
+                </div>
+                <div className="form-check form-check-inline">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    name="python"
+                    value={python}
+                    onChange={this.handleChange}
+                    id="python"
+                  />
+                  <label className="form-check-label" for="python">
+                    Python
+                  </label>
+                </div>
+                <div className="form-check form-check-inline">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    name="git"
+                    value={git}
+                    onChange={this.handleChange}
+                    id="git"
+                  />
+                  <label className="form-check-label" for="git">
+                    Git
+                  </label>
+                </div>
+                <div className="form-check form-check-inline">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    name="doc"
+                    value={doc}
+                    onChange={this.handleChange}
+                    id="doc"
+                  />
+                  <label className="form-check-label" for="doc">
+                    Doc
+                  </label>
+                </div>
+                <div className="form-check form-check-inline">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    name="angular"
+                    value={angular}
+                    onChange={this.handleChange}
+                    id="angular"
+                  />
+                  <label className="form-check-label" for="angular">
+                    Angular
+                  </label>
+                </div>
+                <div className="form-check form-check-inline">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    name="vue"
+                    value={vue}
+                    onChange={this.handleChange}
+                    id="vue"
+                  />
+                  <label className="form-check-label" for="vue">
+                    Vue
+                  </label>
+                </div>
+                <div className="form-check form-check-inline">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    name="jamstack"
+                    value={jamstack}
+                    onChange={this.handleChange}
+                    id="jamstack"
+                  />
+                  <label className="form-check-label" for="jamstack">
+                    Jamstack
+                  </label>
+                </div>
+                <div className="form-check form-check-inline">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    name="serverless"
+                    value={serverless}
+                    onChange={this.handleChange}
+                    id="serverless"
+                  />
+                  <label className="form-check-label" for="serverless">
+                    Serverless
+                  </label>
+                </div>
+                <div className="form-check form-check-inline">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    name="mern"
+                    value={mern}
+                    onChange={this.handleChange}
+                    id="mern"
+                  />
+                  <label className="form-check-label" for="mern">
+                    MERN
+                  </label>
+                </div>
+                <div className="form-check form-check-inline">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    name="mean"
+                    value={mean}
+                    onChange={this.handleChange}
+                    id="mean"
+                  />
+                  <label className="form-check-label" for="mean">
+                    MEAN
                   </label>
                 </div>
               </div>
