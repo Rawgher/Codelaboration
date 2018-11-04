@@ -1,0 +1,15 @@
+#EGA-codelaborationTitle {
+  opacity: 0.5;
+  font-size: 3rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 75px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+#EGA-codeSpan {
+  color: orange;
+}
+#EGA-laborationSpan {
+  color: grey;
+}

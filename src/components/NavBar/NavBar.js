@@ -12,7 +12,7 @@ class NavBar extends Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="col-md-12">
+          <div className="col-md-12" id="EGA-navBarMain">
             <nav className="nav flex-column">
               <Link to="/" className="nav-link active EGA-a">
                 Home
@@ -20,7 +20,7 @@ class NavBar extends Component {
               <Link to="/contact-us" className="nav-link active EGA-a">
                 Contact Us
               </Link>
-              <Link to="/user" className="nav-link active EGA-a">
+              <Link to="/my-collabs" className="nav-link active EGA-a">
                 Profile
               </Link>
             </nav>

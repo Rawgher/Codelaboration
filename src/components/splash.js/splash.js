@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Button from '@material-ui/core/Button'
 import { Link } from 'gatsby'
 import './splash.css'
+import Title from '../Title/Title'
 
 class SplashComponent extends Component {
   constructor(props) {
@@ -26,16 +27,7 @@ class SplashComponent extends Component {
   render() {
     return (
       <div className="container">
-        <div className="row">
-          <div className="col-md-12">
-            <div id="EGA-splashMain">
-              <h1 className="EGA-opacity" id="EGA-codelaborationTitle">
-                <span id="EGA-codeSpan">CODE</span>
-                <span id="EGA-laborationSpan">LABORATION</span>
-              </h1>
-            </div>
-          </div>
-        </div>
+        <Title />
         <div className="row" />
         <div className="col-md-12">
           <Link to="/form">
