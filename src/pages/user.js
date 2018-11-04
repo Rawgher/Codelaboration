@@ -1,16 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Tabs from '../components/Tabs'
 import Layout from '../components/layout'
-import Image from '../components/image'
 
-const IndexPage = () => (
+const User = () => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
-    </div>
+    <Tabs />
+    <Link to="/">Go back to the homepage</Link>
     <Link to="/page-2/">Go to page 2</Link>
     <Link to="/form">Go to form</Link>
     <Link to="/contact-us">Contact Us</Link>
@@ -18,4 +14,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default User
