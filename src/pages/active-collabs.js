@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Card from '../components/Card'
 import Layout from '../components/layout'
 
-const SecondPage = () => (
+const ActiveCollab = () => (
   <Layout>
     <Card />
     <Link to="/">Go back to the homepage</Link>
@@ -14,4 +14,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default ActiveCollab
