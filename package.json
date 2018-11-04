@@ -5,6 +5,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@material-ui/core": "^3.3.2",
+    "axios": "^0.18.0",
     "faker": "^4.1.0",
     "gatsby": "^2.0.19",
     "gatsby-image": "^2.0.15",
@@ -19,7 +20,8 @@
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
-    "react-redux": "^5.1.0"
+    "react-redux": "^5.1.0",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "netlify-lambda": "^1.0.2",
@@ -40,5 +42,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "proxy": {
+    "/.netlify/functions": {
+      "target": "http://localhost:9000",
+      "pathRewrite": {
+        "^/\\.netlify/functions": ""
+      }
+    }
   }
 }

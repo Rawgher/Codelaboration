@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import { loadProfile } from '../actions/profile'
 class ReduxTestPage extends Component {
+  componentWillMount () {
+    this.props.loadProfile()
+  }
   render () {
     return (
       <div>
@@ -12,13 +16,16 @@ class ReduxTestPage extends Component {
 }
 
 function mapStateToProps (state) {
+  console.log('state', state)
   return {
     user: state.user
   }
 }
 
-function mapDispatchToProps (dispatch) {
-  return { }
-}
+// function mapDispatchToProps (dispatch) {
+//   return { 
 
-export default connect(mapStateToProps, mapDispatchToProps)(ReduxTestPage)
+//   }
+// }
+
+export default connect(mapStateToProps, { loadProfile })(ReduxTestPage)
