@@ -25,19 +25,38 @@ class SplashComponent extends Component {
 
   render() {
     return (
-      <div id="EGA-createCollab">
-        <Link to="/form">
-          <Button className="EGA-buttonColor" id="EGA-createCollabButton">
-            CREATE COLLAB
-          </Button>
-        </Link>
-        <Link to="/active-collabs">
-          <Button className="EGA-buttonColor" id="EGA-activeCollabsButton">
-            ACTIVE COLLABS
-          </Button>
-        </Link>
-        <div id="topLine" className={this.state.topLine} />
-        <div id="bottomLine" className={this.state.bottomLine} />
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div id="EGA-splashMain">
+              <h1 className="EGA-opacity" id="EGA-codelaborationTitle">
+                <span id="EGA-codeSpan">CODE</span>
+                <span id="EGA-laborationSpan">LABORATION</span>
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div className="row" />
+        <div className="col-md-12">
+          <Link to="/form">
+            <Button className="EGA-buttonColor" id="EGA-createCollabButton">
+              CREATE COLLAB
+            </Button>
+          </Link>
+          <Link to="/active-collabs">
+            <Button className="EGA-buttonColor" id="EGA-activeCollabsButton">
+              ACTIVE COLLABS
+            </Button>
+          </Link>
+          <div id="topLine" className={this.state.topLine} />
+          <div id="bottomLine" className={this.state.bottomLine} />
+        </div>
+        <div className="row" />
+        <div className="col-md-12">
+          <Link to="/documentation" id="EGA-documentation">
+            DOCUMENTATION
+          </Link>
+        </div>
       </div>
     )
   }
