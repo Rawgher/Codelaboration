@@ -5,12 +5,13 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@material-ui/core": "^3.3.2",
+    "faker": "^4.1.0",
     "gatsby": "^2.0.19",
     "gatsby-image": "^2.0.15",
     "gatsby-plugin-manifest": "^2.0.5",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
-    "gatsby-plugin-sharp": "^2.0.7",
+    "gatsby-plugin-sharp": "^2.0.11",
     "gatsby-source-filesystem": "^2.0.4",
     "gatsby-transformer-sharp": "^2.1.4",
     "netlify-identity-widget": "^1.4.14",
@@ -18,6 +19,10 @@
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "react-redux": "^5.1.0"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^1.0.2",
+    "prettier": "^1.14.2"
   },
   "keywords": [
     "gatsby"
@@ -28,10 +33,8 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
+    "start-func": "yarn netlify-lambda serve ./src/functions/source",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "prettier": "^1.14.2"
   },
   "repository": {
     "type": "git",

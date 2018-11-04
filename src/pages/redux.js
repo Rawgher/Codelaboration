@@ -9,8 +9,6 @@ class ReduxTestPage extends Component {
       </div>
     )
   }
-
-
 }
 
 function mapStateToProps (state) {

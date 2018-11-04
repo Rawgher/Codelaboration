@@ -1,12 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import Card from '../components/Card'
+import ContactForms from '../components/ContactForm'
 import Layout from '../components/layout'
+import { Link } from 'gatsby'
 
-const ActiveCollab = () => (
+const ContactUs = () => (
   <Layout>
-    <Card />
-    <Link to="/">Go back to the homepage</Link>
+    <ContactForms />
     <Link to="/page-2/">Go to page 2</Link>
     <Link to="/form">Go to form</Link>
     <Link to="/contact-us">Contact Us</Link>
@@ -14,4 +13,4 @@ const ActiveCollab = () => (
   </Layout>
 )
 
-export default ActiveCollab
+export default ContactUs
