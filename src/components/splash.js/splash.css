@@ -1,12 +1,22 @@
+#EGA-splashMain {
+  /* text-align: center; */
+}
 #EGA-createCollabButton {
-  position: absolute;
-  right: 20%;
-  top: 200px;
+  position: relative;
+  left: 20%;
+  top: 300px;
 }
 #EGA-activeCollabsButton {
-  position: absolute;
-  left: 10%;
-  top: 350px;
+  position: relative;
+  left: 63%;
+  top: 140px;
+}
+#EGA-documentation {
+  position: relative;
+  top: 450px;
+  left: 900px;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #EGA-splashBackground {
@@ -20,28 +30,41 @@
   color: white !important;
   border: 1px solid white !important;
 }
+#EGA-codelaborationTitle {
+  opacity: 0.5;
+  font-size: 3rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 75px;
+  margin-left: 50px;
+}
+#EGA-codeSpan {
+  color: orange;
+}
+#EGA-laborationSpan {
+  color: grey;
+}
 
 .topLine {
   position: absolute;
-  left: 0;
-  top: 280px;
+  left: 50px;
+  top: 220px;
   width: 2px;
   height: 2px;
   background: white;
   transition: width 1s ease;
 }
 .topLineDeployed {
-  width: 830px;
+  width: 860px;
 }
 .bottomLine {
   position: absolute;
-  left: 0;
-  top: 300px;
+  left: 50px;
+  top: 260px;
   width: 2px;
   height: 2px;
   background: white;
   transition: width 1s ease;
 }
 .bottomLineDeployed {
-  width: 200px;
+  width: 250px;
 }
