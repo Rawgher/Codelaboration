@@ -7,6 +7,7 @@ import CardContent from '@material-ui/core/CardContent'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
 import Modal from '@material-ui/core/Modal'
+import './Card.css'
 
 function getModalStyle() {
   const top = 50
@@ -61,7 +62,7 @@ class appCard extends React.Component {
     const { classes } = this.props
 
     return (
-      <div>
+      <div id="EGA-singleCardWrapper">
         <Card className={classes.card}>
           <CardContent>
             <Typography
@@ -69,19 +70,28 @@ class appCard extends React.Component {
               // color="textSecondary"
               gutterBottom
             >
-              App Title Here
+              Find Any Scooter!
             </Typography>
+            <div id="EGA-imageDiv">
+              <img
+                id="EGA-imageIcon"
+                src="https://www.razor.com/wp-content/uploads/2018/01/E200_WH_RD_Product.png"
+              />
+            </div>
             <Typography className={classes.pos} color="textSecondary">
-              description of app here description of app here description of app
-              here description of app here description of app here description
-              of app here
+              This will pull data from all active electric scooter distributors
+              and consolidate access to one single application
             </Typography>
             <Typography component="p">
-              Coders Needed:
-              {/* insert number here */}
+              Coders Needed: 3{/* insert number here */}
             </Typography>
             <Typography component="p">
-              Difficulty Rating:
+              Difficulty Rating:{' '}
+              <i className="fa fa-star EGA-starFavIcon" aria-hidden="true" />{' '}
+              <i className="fa fa-star EGA-starFavIcon" aria-hidden="true" />{' '}
+              <i className="fa fa-star EGA-starFavIcon" aria-hidden="true" />
+              <i className="fa fa-star" aria-hidden="true" />
+              <i className="fa fa-star" aria-hidden="true" />
               {/* insert number here */}
             </Typography>
           </CardContent>

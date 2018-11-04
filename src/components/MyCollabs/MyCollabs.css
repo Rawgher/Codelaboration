@@ -3,3 +3,7 @@
   padding: 30px;
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+#EGA-cardWrapper {
+  display: inline-flex;
+}

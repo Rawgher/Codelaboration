@@ -19,7 +19,11 @@ class MyCollabs extends Component {
             <NavBar />
           </div>
 
-          <div className="col-md-9">
+          <div className="col-md-9" id="EGA-cardWrapper">
+            <Card />
+            <Card />
+            <Card />
+            <Card />
             <Card />
           </div>
         </div>
