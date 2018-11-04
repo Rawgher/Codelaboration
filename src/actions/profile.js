@@ -13,7 +13,7 @@ export const loadProfile = () => (dispatch) => {
     if (response.status === 200 && response.data) {
         const profile = response.data
         console.log('profile', profile)
-        // dispatch(loadProfileSuccess(profile))
+        dispatch(loadProfileSuccess(profile))
     } else {
         console.log('error loading profile', response)
     }
