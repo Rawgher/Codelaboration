@@ -53,8 +53,16 @@ class SimpleTabs extends React.Component {
             <List />
           </TabContainer>
         )}
-        {value === 1 && <TabContainer>Item Two</TabContainer>}
-        {value === 2 && <TabContainer>Item Three</TabContainer>}
+        {value === 1 && (
+          <TabContainer>
+            <List />
+          </TabContainer>
+        )}
+        {value === 2 && (
+          <TabContainer>
+            <List />
+          </TabContainer>
+        )}
       </div>
     )
   }
