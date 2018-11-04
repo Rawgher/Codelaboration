@@ -1,5 +1,7 @@
 import React from 'react'
 import './Form.css'
+import NavBar from '../NavBar/NavBar'
+import Title from '../Title/Title'
 
 const encode = data => {
   return Object.keys(data)
@@ -80,13 +82,13 @@ class Form extends React.Component {
     return (
       <div className="container">
         <div className="row">
+          <div className="col-md-12">
+            <Title />
+          </div>
+        </div>
+        <div className="row">
           <div className="col-md-6">
-            <div id="EGA-splashMain">
-              <h1 className="EGA-opacity" id="EGA-codelaborationTitle">
-                <span id="EGA-codeSpan">CODE</span>
-                <span id="EGA-laborationSpan">LABORATION</span>
-              </h1>
-            </div>
+            <NavBar />
           </div>
           <div className="col-md-6" id="EGA-formColumn">
             <form name="appForm" onSubmit={this.handleSubmit} netlify>
