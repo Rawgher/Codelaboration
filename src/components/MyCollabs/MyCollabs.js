@@ -32,6 +32,7 @@ class MyCollabs extends Component {
                 collabName={info.collabName}
                 image={info.image}
                 appDesc={info.appDesc}
+                longAppDesc={info.longAppDesc}
                 coders={info.coders}
                 tech={info.tech}
                 timeline={info.timeline}

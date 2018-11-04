@@ -1,122 +1,35 @@
 [
   {
     "id": 1,
-    "collabName": "Advanced Suit",
+    "collabName": "Eaque quod in magnam",
     "image": "http://pngimg.com/uploads/vase/vase_PNG184.png",
-    "appDesc": "lorem 1",
+    "appDesc": "Iusto voluptatum qui deleniti maiores commodi.",
+    "longAppDesc": "Iusto voluptatum qui deleniti maiores commodi. Mollitia natus qui optio laboriosam voluptatem. Reiciendis labore quia quos. Voluptatem aliquam rerum sapiente ea praesentium fugit. Et nam sunt quaerat minima quis est. Voluptas ut repudiandae ut harum atque quia.",
     "coders": 2,
-    "tech": "react, redux, node",
-    "timeline": "next week",
-    "skillLevel": ""
+    "tech": "React, Redux, Node",
+    "timeline": "2019-05-15",
+    "skillLevel": 1
   },
   {
     "id": 2,
-    "collabName": "2099 Suit",
+    "collabName": "Fugiat quas modi",
     "image": "http://pngimg.com/uploads/vase/vase_PNG182.png",
-    "appDesc": "lorem 2",
+    "appDesc": "Saepe sit cupiditate quaerat.",
+    "longAppDesc": "Quod autem nemo fugit molestiae nihil asperiores nobis laudantium aperiam. Perferendis est totam eligendi qui quia aut ipsa. Repellat distinctio consequuntur et. Saepe sit cupiditate quaerat.",
     "coders": 3,
-    "tech": "python, javascript, c++",
-    "timeline": "1 day",
-    "skillLevel": ""
+    "tech": "Python, Javascript, C++",
+    "timeline": "2019-03-31",
+    "skillLevel": 3
   },
   {
     "id": 3,
-    "collabName": "Classic Suit",
+    "collabName": "Id quidem minima",
     "image": "http://pngimg.com/uploads/vase/vase_PNG178.png",
-    "appDesc": "lorem 3",
+    "appDesc": "Voluptatibus est quis facere.",
+    "longAppDesc": "Voluptatibus est quis facere. Magnam earum modi. Sint ea rerum et. Provident suscipit autem sed quo sed.",
     "coders": 4,
-    "tech": "'react, javascript, serverless",
-    "timeline": "3 weeks",
-    "skillLevel": ""
-  },
-  {
-    "id": 4,
-    "collabName": "Dark Suit",
-    "image": "http://pngimg.com/uploads/vase/vase_PNG174.png",
-    "appDesc": "lorem 2",
-    "coders": 2,
-    "tech": "node, vue",
-    "timeline": "2 days",
-    "skillLevel": ""
-  },
-  {
-    "id": 5,
-    "collabName": "Homemade Suit",
-    "image": "http://pngimg.com/uploads/vase/vase_PNG169.png",
-    "appDesc": "lorem 3",
-    "coders": 1,
-    "tech": "python",
-    "timeline": "4 months",
-    "skillLevel": ""
-  },
-  {
-    "id": 6,
-    "collabName": "Insulated Suit",
-    "image": "http://pngimg.com/uploads/vase/vase_PNG163.png",
-    "appDesc": "lorem 3",
-    "coders": 2,
-    "tech": "react, redux",
-    "timeline": "yesterday",
-    "skillLevel": ""
-  },
-  {
-    "id": 7,
-    "collabName": "MK II Suit",
-    "image": "http://pngimg.com/uploads/vase/vase_PNG158.png",
-    "appDesc": "lorem 132",
-    "coders": 13,
-    "tech": "node",
-    "timeline": "its been 1 week",
-    "skillLevel": ""
-  },
-  {
-    "id": 8,
-    "collabName": "Noir Suit",
-    "image": "http://pngimg.com/uploads/vase/vase_PNG150.png",
-    "appDesc": "lorem ",
-    "coders": 12,
-    "tech": "react",
-    "timeline": "now",
-    "skillLevel": ""
-  },
-  {
-    "id": 9,
-    "collabName": "Punk Suit",
-    "image": "http://pngimg.com/uploads/vase/vase_PNG143.png",
-    "appDesc": "lorem 1323",
-    "coders": 123211,
-    "tech": "vue, mongoDB",
-    "timeline": "asap",
-    "skillLevel": ""
-  },
-  {
-    "id": 10,
-    "collabName": "MK IV Suit",
-    "image": "http://pngimg.com/uploads/vase/vase_PNG137.png",
-    "appDesc": "lorem 111",
-    "coders": 1,
-    "tech": "elm",
-    "timeline": "next tuesday",
-    "skillLevel": ""
-  },
-  {
-    "id": 11,
-    "collabName": "Scarlet Suit",
-    "image": "http://pngimg.com/uploads/vase/vase_PNG131.png",
-    "appDesc": "lorem 213213",
-    "coders": 3,
-    "tech": "JAMstack",
-    "timeline": "Friday",
-    "skillLevel": ""
-  },
-  {
-    "id": 12,
-    "collabName": "Stark Suit",
-    "image": "http://pngimg.com/uploads/vase/vase_PNG127.png",
-    "appDesc": "lorem 124214124",
-    "coders": 32,
-    "tech": "MERN",
-    "timeline": "tomorrow",
-    "skillLevel": ""
+    "tech": "React, Javascript, Serverless",
+    "timeline": "2019-08-27",
+    "skillLevel": 4
   }
 ]
