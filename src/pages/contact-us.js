@@ -1,13 +1,11 @@
 import React from 'react'
-import Forms from '../components/Form'
+import ContactForms from '../components/ContactForm'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
 
-const FormPage = () => (
+const ContactUs = () => (
   <Layout>
-    <div>
-      <Forms />
-    </div>
+    <ContactForms />
     <Link to="/page-2/">Go to page 2</Link>
     <Link to="/form">Go to form</Link>
     <Link to="/contact-us">Contact Us</Link>
@@ -15,4 +13,4 @@ const FormPage = () => (
   </Layout>
 )
 
-export default FormPage
+export default ContactUs

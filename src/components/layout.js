@@ -41,7 +41,9 @@ const Layout = ({ children }) => (
             src="https://unpkg.com/@material-ui/core/umd/material-ui.production.min.js"
             crossorigin="anonymous"
           />
-          <style>{'body { background-color: rgb(37, 37, 37) }'}</style>
+          <style>
+            {'body { background-color: rgb(37, 37, 37); color: #fff }'}
+          </style>
         </Helmet>
         {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
         <div
