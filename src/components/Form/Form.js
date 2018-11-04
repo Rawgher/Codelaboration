@@ -2,7 +2,7 @@ import React from 'react'
 import './Form.css'
 
 const Form = () => (
-  <form name="appForm" method="POST" data-netlify="true">
+  <form name="appForm" method="POST" action="/form" data-netlify="true">
     <div className="form-group">
       <label for="collabName">Collab Name:</label>
       <input
