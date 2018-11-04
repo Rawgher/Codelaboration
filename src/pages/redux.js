@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { loadProfile } from '../actions/profile'
 import { loadCollab } from '../actions/collabs'
 class ReduxTestPage extends Component {
-  UNSAFE_componentWillMount() {
+  componentWillMount() {
     this.props.loadProfile()
     this.props.loadCollab()
   }
