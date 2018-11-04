@@ -1,4 +1,3 @@
-
 import CollabService from '../services/collab'
 /*
 {
@@ -15,13 +14,12 @@ exports.handler = function(event, context, callback) {
   // your server-side functionality
   console.log('event', event, 'context', context)
   const { httpMethod, queryStringParameters, path, headers } = event
-  let statusCode = 200, body
+  let statusCode = 200,
+    body
   switch (httpMethod) {
     case 'GET':
-      if (queryStringParameters && queryStringParameters.id){
-        body = CollabService.getCollab(
-          JSON.parse(queryStringParameters.id)
-        )
+      if (queryStringParameters && queryStringParameters.id) {
+        body = CollabService.getCollab(JSON.parse(queryStringParameters.id))
       } else {
         body = CollabService.listCollabs()
       }
@@ -51,6 +49,6 @@ exports.handler = function(event, context, callback) {
   }
   callback(null, {
     statusCode,
-    body: JSON.stringify(body)
+    body: JSON.stringify(body),
   })
 }
