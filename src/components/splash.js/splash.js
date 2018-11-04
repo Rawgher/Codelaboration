@@ -10,6 +10,8 @@ class SplashComponent extends Component {
     this.state = {
       topLine: 'topLine',
       bottomLine: 'bottomLine',
+      topLineVertical: 'topLineVertical',
+      bottomVert: 'bottomVert',
     }
   }
   componentDidMount() {
@@ -21,6 +23,22 @@ class SplashComponent extends Component {
         })
       }.bind(this),
       500
+    )
+    setTimeout(
+      function() {
+        this.setState({
+          topLineVertical: 'topLineVertical topLineVerticalDeployed',
+        })
+      }.bind(this),
+      100
+    )
+    setTimeout(
+      function() {
+        this.setState({
+          bottomVert: 'bottomvert bottomVertDeployed',
+        })
+      }.bind(this),
+      100
     )
   }
 
@@ -41,6 +59,7 @@ class SplashComponent extends Component {
             </Button>
           </Link>
           <div id="topLine" className={this.state.topLine} />
+          <div id="topLineVertical" className={this.state.topLineVertical} />
           <div id="bottomLine" className={this.state.bottomLine} />
         </div>
         <div className="row" />

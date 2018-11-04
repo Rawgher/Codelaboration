@@ -40,6 +40,19 @@
 .topLineDeployed {
   width: 860px;
 }
+.topLineVertical {
+  position: absolute;
+  left: 910px;
+  top: 147px;
+  width: 2px;
+  height: 2px;
+  background: white;
+  transition: height 1s ease;
+}
+.topLineVerticalDeployed {
+  height: 35px;
+}
+
 .bottomLine {
   position: absolute;
   left: 50px;
@@ -51,4 +64,17 @@
 }
 .bottomLineDeployed {
   width: 250px;
+}
+
+.bottomVert {
+  position: absolute;
+  left: 50px;
+  top: 220px;
+  width: 2px;
+  height: 2px;
+  background: white;
+  transition: height 1s ease;
+}
+.bottomVertDeployed {
+  height: 35px;
 }
