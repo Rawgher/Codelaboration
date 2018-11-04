@@ -5,6 +5,7 @@ import AppBar from '@material-ui/core/AppBar'
 import Tabs from '@material-ui/core/Tabs'
 import Tab from '@material-ui/core/Tab'
 import Typography from '@material-ui/core/Typography'
+import List from '../Lists'
 
 function TabContainer(props) {
   return (
@@ -47,7 +48,11 @@ class SimpleTabs extends React.Component {
             <Tab label="User Rankings" />
           </Tabs>
         </AppBar>
-        {value === 0 && <TabContainer>f;jaklsdjf;lk</TabContainer>}
+        {value === 0 && (
+          <TabContainer>
+            <List />
+          </TabContainer>
+        )}
         {value === 1 && <TabContainer>Item Two</TabContainer>}
         {value === 2 && <TabContainer>Item Three</TabContainer>}
       </div>
