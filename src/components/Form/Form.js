@@ -27,15 +27,14 @@ class Form extends React.Component {
   /* Here’s the juicy bit for posting the form submission */
 
   handleSubmit = e => {
+    e.preventDefault()
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({ 'form-name': 'contact', ...this.state }),
+      body: encode({ 'form-name': 'appForm', ...this.state }),
     })
       .then(() => alert('Success!'))
       .catch(error => alert(error))
-
-    e.preventDefault()
   }
 
   handleChange = e => this.setState({ [e.target.name]: e.target.value })
@@ -55,7 +54,7 @@ class Form extends React.Component {
 
     // const Form = () => (
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form name="appForm" onSubmit={this.handleSubmit} netlify>
         {/* <form name="appForm" method="POST" action="/success" data-netlify="true"> */}
         <div className="form-group">
           <label for="collabName">Collab Name:</label>
@@ -137,6 +136,7 @@ class Form extends React.Component {
             <input
               className="form-check-input"
               type="checkbox"
+              name="javascript"
               value={javascript}
               onChange={this.handleChange}
               id="javascript"
