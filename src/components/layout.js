@@ -37,9 +37,11 @@ const Layout = ({ children }) => (
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
           />
-          <style>
-            {'body { background-color: rgb(37, 37, 37) }; color: #white'}
-          </style>
+          <link
+            href="https://fonts.googleapis.com/css?family=Roboto+Condensed"
+            rel="stylesheet"
+          />
+          <style>{'body { background-color: rgb(37, 37, 37) }'}</style>
         </Helmet>
         {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
         <div
