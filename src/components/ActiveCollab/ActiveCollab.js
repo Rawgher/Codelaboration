@@ -19,7 +19,7 @@ class ActiveCollab extends Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="col-md-12">
+          <div className="col-md-6">
             <div id="EGA-splashMain">
               <h1
                 className="EGA-opacity EGA-codelaborationTitleAcPage"
@@ -30,12 +30,11 @@ class ActiveCollab extends Component {
               </h1>
             </div>
           </div>
-        </div>
-        <div className="row">
-          <div className="col-md-12">
+          <div className="col-md-6">
             <SearchBar />
           </div>
         </div>
+
         <div className="row" id="EGA-activeCollabMain">
           <div className="col-md-3">
             <NavBar />

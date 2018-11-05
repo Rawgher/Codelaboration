@@ -30,7 +30,7 @@ class SplashComponent extends Component {
           topLineVertical: 'topLineVertical topLineVerticalDeployed',
         })
       }.bind(this),
-      100
+      1000
     )
     setTimeout(
       function() {
@@ -38,7 +38,7 @@ class SplashComponent extends Component {
           bottomVert: 'bottomvert bottomVertDeployed',
         })
       }.bind(this),
-      100
+      1000
     )
   }
 
