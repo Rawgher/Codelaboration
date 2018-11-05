@@ -35,10 +35,10 @@ class SplashComponent extends Component {
     setTimeout(
       function() {
         this.setState({
-          bottomVert: 'bottomvert bottomVertDeployed',
+          bottomVert: 'bottomVert bottomVertDeployed',
         })
       }.bind(this),
-      1000
+      600
     )
   }
 
@@ -61,6 +61,7 @@ class SplashComponent extends Component {
           <div id="topLine" className={this.state.topLine} />
           <div id="topLineVertical" className={this.state.topLineVertical} />
           <div id="bottomLine" className={this.state.bottomLine} />
+          <div id="bottomVert" className={this.state.bottomVert} />
         </div>
         <div className="row" />
         <div className="col-md-12">
