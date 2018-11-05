@@ -2,7 +2,7 @@
 
 ## HOW TO USE THIS APP
 
-This is a JAM Stack application geared towards programmers looking to collaborate on projects. The aim of this application is to provide a place for programmers to quickly find projects to work or people to collaborate with.
+This is a JAM Stack application geared towards programmers looking to collaborate on projects. The aim of this application is to provide a place for programmers to quickly find projects to work on or people to collaborate with.
 
 There are two entry points the application; **Create Collab** and **Active Collabs**.
 
