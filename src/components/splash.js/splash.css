@@ -26,6 +26,7 @@
 .EGA-buttonColor {
   color: white !important;
   border: 1px solid white !important;
+  background: rgb(37, 37, 37) !important;
 }
 
 .topLine {
