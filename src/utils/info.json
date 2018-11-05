@@ -2,7 +2,7 @@
   {
     "id": 1,
     "collabName": "Eaque magnam",
-    "image": "http://pngimg.com/uploads/vase/vase_PNG184.png",
+    "image": "https://image.flaticon.com/icons/svg/112/112739.svg",
     "appDesc": "Iusto voluptatum commodi.",
     "longAppDesc": "Iusto voluptatum qui deleniti maiores commodi. Mollitia natus qui optio laboriosam voluptatem. Reiciendis labore quia quos. Voluptatem aliquam rerum sapiente ea praesentium fugit. Et nam sunt quaerat minima quis est. Voluptas ut repudiandae ut harum atque quia.",
     "coders": 2,
@@ -13,18 +13,18 @@
   {
     "id": 2,
     "collabName": "Fugiat quas modi",
-    "image": "http://pngimg.com/uploads/vase/vase_PNG182.png",
+    "image": "https://www.flaticon.com/premium-icon/icons/svg/1183/1183622.svg",
     "appDesc": "Saepe sit cupiditate quaerat.",
     "longAppDesc": "Quod autem nemo fugit molestiae nihil asperiores nobis laudantium aperiam. Perferendis est totam eligendi qui quia aut ipsa. Repellat distinctio consequuntur et. Saepe sit cupiditate quaerat.",
     "coders": 3,
-    "tech": "Python, Javascript, C++",
+    "tech": "Vue, Javascript, C++",
     "timeline": "2019-03-31",
     "skillLevel": 3
   },
   {
     "id": 3,
     "collabName": "Id quidem minima",
-    "image": "http://pngimg.com/uploads/vase/vase_PNG178.png",
+    "image": "https://image.flaticon.com/icons/svg/35/35446.svg",
     "appDesc": "Voluptatibus est quis facere.",
     "longAppDesc": "Voluptatibus est quis facere. Magnam earum modi. Sint ea rerum et. Provident suscipit autem sed quo sed.",
     "coders": 4,
