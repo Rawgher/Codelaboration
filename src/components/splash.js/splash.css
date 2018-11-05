@@ -81,7 +81,7 @@
 .bottomVert {
   position: absolute;
   left: 300px;
-  top: 220px;
+  top: 255px;
   width: 2px;
   height: 2px;
   background: white;
@@ -89,4 +89,6 @@
 }
 .bottomVertDeployed {
   height: 35px;
+  transform: rotatex(180deg);
+  transform-origin: top;
 }
