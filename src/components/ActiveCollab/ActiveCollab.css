@@ -4,4 +4,6 @@
 
 #EGA-cardWrapper {
   display: inline-flex;
+  overflow-x: auto;
+  padding-bottom: 20px;
 }
