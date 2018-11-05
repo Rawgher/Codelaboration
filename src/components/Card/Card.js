@@ -22,7 +22,8 @@ function getModalStyle() {
 
 const styles = theme => ({
   card: {
-    maxWidth: 250,
+    minWidth: 350,
+    minHeight: 375,
   },
   title: {
     fontSize: 24,
