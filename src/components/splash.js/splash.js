@@ -65,9 +65,12 @@ class SplashComponent extends Component {
         </div>
         <div className="row" />
         <div className="col-md-12">
-          <Link to="/documentation" id="EGA-documentation">
+          <a
+            href="https://github.com/Rawgher/Codelaboration"
+            id="EGA-documentation"
+          >
             DOCUMENTATION
-          </Link>
+          </a>
         </div>
       </div>
     )

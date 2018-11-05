@@ -30,6 +30,16 @@ const contactForm = () => (
             />
           </div>
 
+          <div class="form-group">
+            <label for="feedback">Any postive feedback:</label>
+            <textarea
+              type="description"
+              class="form-control"
+              id="feedback"
+              name="_feedback"
+            />
+          </div>
+
           <button type="submit">Send</button>
         </form>
       </div>
